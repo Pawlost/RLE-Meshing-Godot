@@ -1,0 +1,6 @@
+[submodule "src/Weltschmerz"]
+	path = src/Weltschmerz
+	url = git@github.com:Pawlost/Weltschmerz.git
+[submodule "src/Other/Weltschmerz"]
+	path = src/Other/Weltschmerz
+	url = git@github.com:Pawlost/Weltschmerz.git

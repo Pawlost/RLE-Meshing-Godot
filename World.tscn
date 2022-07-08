@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/GodotMesher.cs" type="Script" id=1]
+[ext_resource path="res://src/Player.cs" type="Script" id=3]
+[ext_resource path="res://src/GameServer.cs" type="Script" id=4]
+[ext_resource path="res://src/GameClient.cs" type="Script" id=5]
+
+[node name="World" type="Spatial"]
+script = ExtResource( 4 )
+LOAD_RADIUS = 16
+
+[node name="GameClient" type="Spatial" parent="."]
+script = ExtResource( 5 )
+
+[node name="Player" type="Spatial" parent="GameClient"]
+script = ExtResource( 3 )
+
+[node name="Camera" type="Camera" parent="GameClient/Player"]
+
+[node name="GameMesher" type="Spatial" parent="GameClient"]
+script = ExtResource( 1 )
