@@ -10,3 +10,5 @@ data_*/
 
 #VSCode
 /.vscode/
+*.vs
+*/.godot

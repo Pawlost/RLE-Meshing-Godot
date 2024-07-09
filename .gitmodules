@@ -3,4 +3,7 @@
 	url = git@github.com:Pawlost/Weltschmerz.git
 [submodule "src/Other/Weltschmerz"]
 	path = src/Other/Weltschmerz
+	url = https://github.com/Pawlost/Weltschmerz.git
+[submodule "Weltschmerz"]
+	path = Weltschmerz
 	url = git@github.com:Pawlost/Weltschmerz.git
